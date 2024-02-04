@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--Sources: 
+    [1] J. Cruz, “How to build a search bar with JavaScript,” a, 06-Sep-2020. [Online]. Available: https://plainenglish.io/blog/how-to-build-a-search-bar-7d8a8a3d9d00. [Accessed: 09-Mar-2023]. -->
+    <link rel="Stylesheet" type="text/css" href="Stylesheet.css">
+    <title>Courses</title>
+    <meta charset="UTF-8">
+
+</head>
+
+
+
+<body>
+    <header>
+
+        <nav>
+            <a href="A1LandingPage.html"> Home</a>
+            <a href="A1ResumePage.html"> Resume</a>
+            <a href="A1Courses.html" id="navTest"> Courses</a>
+        </nav>
+        <div class="searchBar">
+                <input type="text" placeholder="Search" id="searchInput">
+        </div>
+    
+            <div class="selector">
+                <label for="levelSelect">Level:</label>
+    
+                <select name="levelSelect" id="levelSelect">
+                  <option value="All">All Levels</option>
+                  <option value="level1">Level 1</option>
+                  <option value="level2">Level 2</option>
+                </select>
+            </div>
+    </header>
+    
+    <div class="coursesHeader">
+        <h1>
+            Courses
+        </h1>
+    </div>
+
+    <div class="courseLevelHeaders" id="courseHeaders">
+        <div class="level1">
+            <h2>
+                Level 1
+            </h2>
+        </div>
+
+        <div class="level2">
+            <h2>
+                Level 2
+            </h2>
+        </div>
+
+    </div>
+
+    <div class="coursesContent">
+
+        <div class="level2Content" id="level2Content">
+            <ul class="courseNames">
+
+                <li class="courseNamesItems">
+                    CST8284 - Object Oriented Programming
+                    <p class="textUnderCourse"> OOP through Java</p>
+                </li>
+               
+                
+                <li class="courseNamesItems">
+                    CST8285 - Web Programming
+                    <p class="textUnderCourse">Web development through HTML,CSS,Javascript, and PHP</p>
+                </li>
+                
+
+                <li class="courseNamesItems">
+                    CST2355 - Database Systems
+                    <p class="textUnderCourse">Database systems through various software including MS Access, MySQL, Oracle, Microsoft SQL server</p>
+                </li>
+                
+                
+                <li class="courseNamesItems">
+                    CST8102 - Operating Systems Fundamentals
+                    <p class="textUnderCourse">Advanced OS concepts through Linux</p>
+
+                </li>
+                
+                <li class="courseNamesItems">
+                    ENL2019T - Technical Communications for Engineering Technologies
+                    <p class="textUnderCourse">Communication Strategies for Engineers</p>
+
+                </li>
+                
+                <li class="courseNamesItems">
+                    GED2200 - Free speech and Social Media
+                    <p class="textUnderCourse">Debate about free speech in relation to social media</p>
+
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="level1Content" id="level1Content">
+            <ul>
+                <li class="courseNamesItems">
+                    CST8116 - Intro To Computer Programming
+                    <p class="textUnderCourse">Basics of programming through Java</p>
+
+                </li>
+                
+                <li class="courseNamesItems">
+                    CST8215 - Intro To Database
+                    <p class="textUnderCourse">Early database concepts with a focus on MySQL</p>
+                </li>
+              
+
+                <li class="courseNamesItems">
+                    CST8101 - Computer Essentials
+                    <p class="textUnderCourse">Essential concepts about computer hardware and best practices</p>
+                </li>
+               
+
+                <li class="courseNamesItems">
+                    ENL1813T - Communications 1
+                    <p class="textUnderCourse">Basic communication skills, specifically business comms</p>
+                </li>
+              
+
+                <li class="courseNamesItems">
+                    CST8300 - Achieving Success in Changing Environments
+                    <p class="textUnderCourse">Discussing ways to find success in modern environments</p>
+
+                </li>
+               
+                <li class="courseNamesItems">
+                    MAT8001C - Tech Math for Computer Science
+                    <p class="textUnderCourse">Important math concepts for programming</p>
+
+                </li>
+              
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="AlgonquinLink">
+            <h4>My School: </h4>
+            <a href="https://www.algonquincollege.com/" class="acLink"> Algonquin College</a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="Functions.js"></script>
+</body>
+
+</html>
